@@ -1,0 +1,32 @@
+Here’s the meaning of the column labels from the Titanic dataset:
+
+	•	survival: 0 = No, 1 = Yes
+	•	pclass: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+	•	sex: Gender of the passenger
+	•	Age: Age in years
+	•	sibsp: Number of siblings/spouses aboard
+	•	parch: Number of parents/children aboard
+	•	ticket: Ticket number
+	•	fare: Passenger fare
+	•	cabin: Cabin number
+	•	embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+
+
+
+For submitting your predictions for the Titanic competition, you need to provide a CSV file with exactly 418 entries plus a header row. The file should contain two columns:
+
+	1.	PassengerId: You can sort this in any order.
+	2.	Survived: Your binary predictions (1 for survived, 0 for deceased).
+
+Make sure there are no extra columns or rows in your submission file. Let me know if you’d like assistance in creating this file!
+
+
+============================
+
+
+Summary of Data Cleaning Steps:
+
+	1.	Fill missing values (e.g., for Age or Embarked).
+	2.	Convert categorical columns to numerical (e.g., “male” to 0, “female” to 1).
+	3.	Optionally, scale numerical features for models that require it (Logistic Regression, for example).
+	4.	Optionally, create new features like FamilySize to enrich the dataset.
