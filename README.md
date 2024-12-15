@@ -30,4 +30,3 @@ This project aims to predict passenger survival on the Titanic based on features
 
 ## Links
 - **Kaggle Profile:** [Sashwat Tanay on Kaggle](https://www.kaggle.com/sashwattanay)  
-- **GitHub Repository:** [ML Kaggle Titanic Challenge](https://github.com/sashwattanay/ML-Kaggle-Titanic-Challenge)
